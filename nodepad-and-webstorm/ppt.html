@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
 
     <meta charset="utf-8">
@@ -16,13 +16,12 @@
 
     <div class="slides">
 
-
         <section>
-            <h2>webstorm & nodepad++</h2>
+            <h2>前端开发工具介绍</h2>
 
-            <h2 style="text-indent: 8em;">使用技巧</h2>
+            <h4 style="text-indent: 8em;">工欲善其事必先利其器</h4>
 
-            <p>BY北河</p>
+            <p>BY HaoJu Zheng</p>
         </section>
 
         <section>
@@ -349,8 +348,218 @@
 
         <section>
             <section>
+                <h2>砍刀 —— Chrome Developer Tools</h2>
+                <p>强大的调试和编辑功能，很难想想它仅仅是一个浏览器调试工具</p>
+                <div>官方地址:<a href="http://www.google.cn/chrome/">http://www.google.cn/chrome/</a></div>
+            </section>
+
+            <section>
+                <h2>优点</h2>
+                <ul class="fragment">
+                    <li>跨平台</li>
+                    <li>免费</li>
+                    <li>速度快</li>
+                    <li>调试功能强大,JS即改就生效和workspace</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>缺点</h2>
+                <ul class="fragment">
+                    <li>console不支持多行模式</li>
+                </ul>
+            </section>
+        </section>
+
+        <section>
+            <section>
+                <h2>基本调试功能</h2>
+                <div>
+                    具备其他浏览器调试插件的基本功能，这里只介绍其独有的功能
+                </div>
+            </section>
+
+            <section>
+                <h2>改变元素状态，显示伪类样式</h2>
+                <figure>
+                    <img src="./img/cdt-elementstatus.png"/>
+                </figure>
+            </section>
+
+            <section>
+                <h2>CSS拾色器功能</h2>
+                <div>firebug可以通过插件支持</div>
+                <figure>
+                    <img src="./img/cdt-colorpicker.png"/>
+                </figure>
+            </section>
+
+            <section>
+                <h2>CSS颜色格式切换(shift+click)</h2>
+                <figure>
+                    <img src="./img/cdt-colorformat.png"/>
+                </figure>
+            </section>
+
+            <section>
+                <h2>查看dom元素上注册的事件</h2>
+                <div>firebug2.x已经支持该功能</div>
+                <figure>
+                    <img src="./img/cdt-events.png"/>
+                </figure>
+            </section>
+
+            <section>
+                <h2>终端模拟器</h2>
+                <figure>
+                    <img src="./img/cdt-emulation.png"/>
+                </figure>
+            </section>
+        </section>
+
+        <section>
+            <section>
+                <h2>JavaScript调试</h2>
+                <p>强大的调试功能，尤其是即改即生效和workplace功能</p>
+                <a href="http://zhenghaoju700.blog.163.com/blog/static/135859518201431910058160/">更多内容</a>
+            </section>
+
+            <section>
+                <h2>即改即生效</h2>
+                <p>不但可以既改既生效，还有历史修改记录</p>
+                <figure>
+                    <img src="./img/cdt-localmodify.png"/>
+                </figure>
+            </section>
+
+            <section>
+                <h2>使用workplace关联本地代码</h2>
+                <p>在chrome中任何代码的修改会同步到本地代码</p>
+                <figure>
+                    <img src="./img/cdt-workplace.png"/>
+                </figure>
+            </section>
+
+            <section>
+                <h2>JavaScript代码美化</h2>
+                <p>对压缩过的JS代码进行美化,更易于debug.(CSS也可以美化)</p>
+                <figure>
+                    <img src="./img/cdt-format.png"/>
+                </figure>
+            </section>
+        </section>
+
+        <section>
+            <section>
+                <h2>Chrome Dev Tools常用快捷键</h2>
+                <p>Chrome Dev Tools不仅是一个调试工具，你也可以把它当做一个编辑器进行工作，所以熟练掌握这些快捷键是必要的</p>
+                <a href="http://zhenghaoju700.blog.163.com/blog/static/13585951820143257242344/">更多内容</a>
+            </section>
+
+            <section>
+                <h2>Ctrl + G (in source panel)</h2>
+                <p>快速定位到JavaScript文件某一行</p>
+                <figure>
+                    <img src="./img/cdt-cd.png"/>
+                </figure>
+            </section>
+
+            <section>
+                <h2>Ctrl + O (in sources panel)</h2>
+                <p>在sources panel中查找文件</p>
+                <figure>
+                    <img src="./img/cdt-co.png"/>
+                </figure>
+            </section>
+
+            <section>
+                <h2>Ctrl + Shift + O (in sources panel)</h2>
+                <p>在当前文件中查找成员</p>
+                <figure>
+                    <img src="./img/cdt-cso.png"/>
+                </figure>
+            </section>
+
+            <section>
+                <h2>Ctrl + F (in sources panel)</h2>
+                <p>在当前文件中查找内容</p>
+                <figure>
+                    <img src="./img/cdt-cf.png"/>
+                </figure>
+            </section>
+
+            <section>
+                <h2>Ctrl + Shift + F (in sources panel)</h2>
+                <p>在所有文件中查找内容</p>
+                <figure>
+                    <img src="./img/cdt-csf.png"/>
+                </figure>
+            </section>
+
+            <section>
+                <h2>Ctrl + "+"/"-"</h2>
+                <p>修改dev tools内容字体大小</p>
+            </section>
+        </section>
+
+        <section>
+            <section>
+                <h2>匕首 —— 前端Code分享和记录利器</h2>
+                <p>在学习前端知识时,时常需要记录和实践，这时候下面的实时展示code运行结果工具派上用场</p>
+                <ul class="fragment">
+                    <li><a href="http://jsfiddle.net/">jsfiddle</a></li>
+                    <li><a href="http://jsbin.com/">jsbin</a></li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>优点</h2>
+                <ul class="fragment">
+                    <li>快速实践和记录知识</li>
+                    <li>易于修改和分享</li>
+                    <li>支持多种框架</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>缺点</h2>
+                <ul class="fragment">
+                    <li>无法离线工作</li>
+                    <li>不易进行复杂项目</li>
+                </ul>
+            </section>
+
+        </section>
+
+        <section>
+            <section>
+                <h2>使用jsfiddle</h2>
+                <p>这里以jsfiddle为例,先注册一个fiddle账号</p>
+            </section>
+
+            <section>
+                <h2>如何使用jsfiddle</h2>
+                <figure>
+                    <img src="./img/jsfiddle-fiddle.png"/>
+                </figure>
+            </section>
+
+            <section>
+                <h2>我的jsfiddle</h2>
+                <div>地址:http://jsfiddle.net/user/hjzheng/fiddles/</div>
+                <figure>
+                    <img src="./img/jsfiddle-myjsfiddle.png"/>
+                </figure>
+            </section>
+
+        </section>
+
+
+
+        <section>
+            <section>
                 <h2>谢谢观赏</h2>
-                <h3>2014-07-27</h3>
+                <h3>2014-08-18</h3>
             </section>
         </section>
 
