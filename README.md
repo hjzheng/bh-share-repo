@@ -6,7 +6,7 @@ beihe share repo
 #### 修改自北河的PPT
 
 ### 前端开发工具介绍 (工欲善其事必先利其器)
-1. 轻量级装备(手枪) Notepad ++ ([参见北河的PPT][0])
+#### 轻量级装备(手枪) Notepad ++ ([参见北河的PPT][0])
    - 官方地址: http://notepad-plus-plus.org/ 
       - 使用方便，短小精悍。
       - 上可修改各种程序文件，下可修改各种配置文件。
@@ -30,7 +30,7 @@ beihe share repo
      - JSTool: JS压缩和格式化
      - JSONViewer: 查看和格式化JSON数据
 
-2. 重量级装备(机枪) WebStorm ([参见北河的PPT][0])
+#### 重量级装备(机枪) WebStorm ([参见北河的PPT][0])
    - 官方地址:http://www.jetbrains.com/webstorm/
       - 为前端而生，仅仅支持html+js+css是不够的，nodejs，coffeescript,angular亦不在话下。
    - 优点
@@ -46,7 +46,7 @@ beihe share repo
    - 更多
       - [WebStorm入门资料][3]
 
-3. 贴身装备(砍刀) Chrome Dev tools 
+#### 贴身装备(砍刀) Chrome Dev tools 
    - 官方地址: http://www.google.cn/chrome/
    - 优点
 	 - 跨平台
@@ -61,7 +61,7 @@ beihe share repo
      - [使用Chrome Dev tools调试JS][4]
      - [Chrome Dev Tools常用快捷键][5]
 	 
-4. 前端Code分享和记录利器(匕首)
+#### 前端Code分享和记录利器(匕首)
    - 在学习前端知识时,时常需要记录和实践，这时候下面的实时展示code运行结果工具派上用场。
    - [jsfiddle][7] 和 [jsbin][8]
    - 优点
